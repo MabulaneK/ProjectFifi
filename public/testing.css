@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
+
+body{
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid  rgb(26, 77, 107);
+  border-bottom: 5px solid  rgb(18, 105, 155);
+  
+}
+p{
+ color: rgb(24, 160, 146);
+}
+
+.img-cir{
+    top: 60px;
+   
+    position: relative;
+    margin:  auto;
+    display: flex;
+}
+
+img{
+    
+    position: relative;
+    margin: auto;
+    width: 250px;
+    border-radius: 50%;
+    
+    
+}
+.digreeTy{
+  font-weight: bolder;
+  color:  rgb(15, 67, 97);
+  
+}
+.edu{
+  transform: translateX(-3px);
+  
+}
+.ter{
+  transform: translateX(-122px);
+}
+#header1{
+ position: absolute;
+  background: none;
+  width: 90%;
+  margin: auto;
+
+}
+#header2{
+  background: none;
+ transform: translateX(-3px);
+}
+
+#header3{
+  
+  transform: translateX(-3px);
+}
+h2{
+    padding:20px;
+    text-align: center;
+    background: rgb(18, 105, 155);
+    color:   white;
+  
+}
+
+.t1{
+  font-size: 14px;
+}
+.border{
+  top: -1px;
+  margin: 0 auto;
+  /*color: rgba(21, 77, 90, 0.815);*/
+  width: 87%;
+  border-radius: 3px;
+  border: 2px solid   rgb(18, 105, 155);
+  
+  padding: 10px 20px 5px 20px;
+}
+.textField1{
+  float: left;
+  font-size: 13px;
+}
+
+.textField2{
+  left: 53%;
+ position: absolute;
+ font-size: 14px;
+ 
+}
+#Sskills{
+  transform: translate(-30px,-20px);
+    
+}
+#Sskills li{
+  list-style: square;
+}
+.web{
+  padding-left: 10px;
+  color: rgb(8, 14, 41);
+  
+}
+.detail{
+  color: rgb(8, 14, 41);
+  
+}
+li {
+  list-style: none;
+}
+.line{
+  background-color: rgb(18, 105, 155);
+  height: 8px;
+  width: 100%;  
+ 
+}
+.line4{
+  background-color: rgb(18, 105, 155);
+  height: 8px;
+  width: 100%;  
+  border-radius: 5px;
+ 
+}
+.line3{
+  margin: auto;
+  background-color:white;
+  color:  rgb(72, 151, 204);
+  font-size: 20px;
+  font: bold;
+  width: 100%;
+  border-bottom: 3px solid rgb(18, 105, 155);
+  
+}
+.line2{
+  background-color:white;
+  width: 100%;
+  color: rgb(72, 151, 204);
+  text-align: center;
+  border-bottom: 2px solid rgb(18, 105, 155);
+  
+}
+
+.T1{
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.t1{
+
+  border-bottom-width: 2px;
+ 
+  padding-left: 10px;
+}
+.border .tablee{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#readd {
+  font-size: 20px;
+  color:rgb(18, 105, 155);
+}
+
+#tools{
+  border-bottom: 1px solid rgb(18, 105, 155);
+  font-size: 14px;
+  padding: 2px 2px 2px 2px;
+  text-align: center;
+}
+.tablea {
+
+  padding-left: 1%;
+  
+  font-size: 13px;
+}
+th{
+  font-weight: normal;
+  border-radius: 2px;
+  background: rgba(13, 96, 250, 0.056);
+}
+tr{
+  border-bottom: 2px solid rgba(1, 10, 10, 0.775);
+  
+}
+#CodingS{
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-color:1px solid rgb(62, 97, 214) ;
+  border-left: 1px solid rgb(18, 105, 155);
+  border-bottom: 1px solid rgb(18, 105, 155);
+  background:rgb(255, 255, 255);
+  padding: 5px;
+
+}
+
+.cicle{
+  height: 50px;
+  width: 50px;
+  /* background: rgb(18, 105, 155);*/
+  border-radius: 50%;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+}
+#cicle2{
+  height: 125px;
+  width: 125px;
+  top: -1019px;
+  left: -3px;
+}
+#cicle4{
+  height: 25px;
+  width: 25px;
+  top: -1041px;
+  left:119PX;
+  /* background: rgb(18, 105, 155);*/
+}
+
+#cicle1{
+  background:none;
+  height: 30px;
+  width: 30px;
+  top: -1159px;
+  left: 93%;
+}
+
+#cicle3{
+    /*background:rgb(18, 105, 155);*/
+
+
+  height: 25px;
+  width: 25px;
+  top: -1139px;
+  left: 91%;
+}
+
+#cicle5{
+  /* background: rgb(123, 245, 23);*/
+  height: 20px;
+  width: 20px;
+  top: -1120px;
+  left: 87%;
+}
+
+#cicle6{
+   /* background: rgb(123, 245, 23);*/
+  height: 12px;
+  width: 12px;
+  top: -1145px;
+  left: 96%;
+}
+
+#cicle7{
+  /*background:rgb(123, 245, 23);*/
+
+  height: 10px;
+  width: 10px;
+  top: -1150px;
+  left: 88%;
+}
+
+/*
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Global Division Of Information | Katlego is digital portfolio">
+  	<meta name="keywords" content="Katlego mabulane">
+  	<link rel="canobical" href="http://globaldi.co.za/index.html">
+    <title>Katlego's CV</title>
+    <link rel="stylesheet" href="allpg.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="testing.css">
+</head>
+<body>			<h2>MABULANE LERATO</h2> 
+            <div class="border">
+                      <div class="textField1" id="details">	
+                          <li>Cell Phone</li>
+                          <label for="">Email</label><br>
+                          <label for="">Address</label>
+                      </div>
+              <div class="textField2">
+                  <label for=""class="detail">0603660694</label><br>
+                  <a href ="mailto:mabulana20@gmail.com" class="detail" >mabulana20@gmail.com</a><br>
+                  <label for="" class="detail"><a  class="web">4005 Jeff Atteredgeville Pretoria 0008</a></label>
+              </div>
+              <br><br><br>
+              <div class="line"></div>
+              <div class="line2"><li>Profile</li></div><br>
+              <p>My Objective To work in an environment which encourages me to succeed and grow professionally where I can
+                utilize my skills and knowledge appropriately..</p>
+              <br>
+              <div class="line4"></div>
+              <div class="textField1">
+                  
+              <label for="">Name</label><br>
+                  <label for="">Surname</label><br>
+                  <label for="">Gender</label><br>
+                  <label for=""></label><br>
+              </div>
+              <div class="textField2">
+                  
+                  <label for="">Lerato</label><br>
+                  <label for="">Mabulane</label><br>
+                  <label for="">Female</label><br>
+                  <label for=""></label><br>
+                  
+              </div>
+  
+              <br> <br> <br>
+              <div class="line3" ><li class="edu">Education</li>  </div>
+              <div class="textField1">
+                  <label for="">School</label><br>
+                  <label for="">Highest Grade Passed</label><br>
+                  <label for="">Symbol</label><br>
+                  <label for="">Year</label><br><p> </p>
+              </div>	
+              <div class="textField2">
+                  <label class="TextF2" for="">Sekgware High School</label><br>
+                  <label class="TextF2" for="">Matric</label><br>
+                  <label class="TextF2" for="">Bechelor Degree</label><br>
+                  <label class="TextF2" for="">2011</label><br>	<br><br><br>	
+              </div>	
+              <br><br> <br>  
+              <div class="line3"> <li class="ter">Tertiary</li></div>	
+              <div class="textField1">
+                  <label class="TextF1" for="">Institution</label><br>
+                  <label class="TextF1" for="">Qualification</label><br><br>
+                  <label class="TextF1" for="">Year Completed </label><br>
+              </div>
+              <div class="textField2">
+                  <label class="TextF2" for="">Brooklyn City College</label><br>
+                  <label class="TextF2" for=""><span class="digreeTy">N6 Certificate</span></label><br>
+                  <label class="TextF2" for="">Human Resources Management  </label><br>
+                  <label class="TextF2" for="">2018  </label><br>
+              </div>	
+              <br><br> <br> <br>
+              <div class="line3" id="header1">Skills</div><br><p> </p><br>
+              <div class="textField1" id="CodingS">
+                  <label class="TextF1"  id="readd" for="">Compitency </label><br>
+                  <label class="TextF1" for=""></label><br>
+                  <label class="TextF1" for="">Excelent communications </label><br>
+                  <label class="TextF1" for="">Creative and innovative</label><br>
+                  <label class="TextF1" for="">Problem solving </label><br>
+                  <label class="TextF1" for="">Team building </label><br>				
+                  <label class="TextF1" for="">Decision making</label><br>
+              </div> <p></p>
+              <div class="textField2">
+
+                  <label class="TextF2" for="">Computer Literate [Windows & linux] </label><br>
+                  <label class="TextF2" for="">Effective Communication Skills</label><br>	
+                  <label class="TextF2" for="">Database Management (SQL Queries)</label><br>
+                  <label class="TextF2" for="">Data Design, Analysis and Development</label><br>
+                  <label class="TextF2" for="">Programming (Mobile, Web, Software)</label><br>
+                  <label class="TextF2" for="">Troubleshooting and testing skills</label><br>
+                  <label class="TextF2" for="">Analytical, Research & Networks  skills</label><br>
+                  <label class="TextF2" for="">Computer Support system</label>
+                  <!--
+                      
+                  <label class="TextF2" for="">Programming C++, C# ,Python & JAVA</label><br>
+                  <label class="TextF2" for="">Database Management SQL/PL SQL</label><br>
+                  <label class="TextF2" for="">Font End and Back End</label><br>
+                  <label class="TextF2" for="">Web Development  [HTML CSS JAVA script]</label>
+                  -->
+              </div><br>
+              <br><br> <br><br> <br><br>
+              
+  
+              <div class="line3" id="header2">Software Tools</div> 
+              <label class="t1"  id="tools" for="">MS Word</label>
+              <label class="t1"  id="tools" for="">MS Excel</label>
+              <label class="t1"  id="tools" for="">MS Powerpoint</label>
+              <br>
+              
+              <!--
+              <div class="line3" id="header2">Software Tools</div> 
+              <label class="t1"  id="tools" for="">Microsoft Word</label>
+              <label class="t1"  id="tools" for="">Excel</label>
+              <label class="t1"  id="tools" for="">Power Point</label>
+              <label class="t1"  id="tools" for="">Access</label>
+              --> 				
+  
+              <br><div class="line3"id="header3">Language</div>
+              
+                  <label class="t1" for="">English</label>
+                  <label class="t1" for="">Sepedi</label>
+                  <label class="t1" for="">Tsonga</label>
+                  <label class="t1" for="">Zulu</label>
+                  <label class="t1" for="">Tswana</label>
+                  <label class="t1" for="">Venda</label>
+  
+              
+                  <br><br>
+                  <div class="tablee">
+                  <table class="tablea">
+                      <tr>
+                          <th id="readd">Reference</th>
+                          <th>Organisation</th>
+                          <th>Position</th>
+                          <th>Name</th>
+                          <th>Email</th>
+                          <th>Tell</th>
+                          
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td>TUT</td>
+                          <td>Omni HR Consulting</td>
+                          <td>Mr P Masango</td>
+                          <td></a></td>
+                          <td>011 312 6175</td>
+                          
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td></td>
+                          <td>Servest</td>
+                          <td>Mr T Masingi</td>
+                          <td>Hygiene and cleaning</a></td>
+                          <td>0114440102</td>
+                      </tr>
+                  </table>
+                </div>
+
+
+<!--
+    Role 
+    duties and resposiblities.
+    metion   hr
+    date and fine.
+    letter wil forms sign
+-->
+
+              
+          </div>
+<br>
+</body>
+</html>
+
+*
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Global Division Of Information | Katlego is digital portfolio">
+  	<meta name="keywords" content="Katlego mabulane">
+  	<link rel="canobical" href="http://globaldi.co.za/index.html">
+    <title>Katlego's CV</title>
+    <link rel="stylesheet" href="allpg.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="testing.css">
+</head>
+<body>			<h2>MABULANE LERATO</h2> 
+            <div class="border">
+                      <div class="textField1" id="details">	
+                          <li>Cell Phone</li>
+                          <label for="">Email</label><br>
+                          <label for="">Address</label>
+                      </div>
+              <div class="textField2">
+                  <label for=""class="detail">0603660694</label><br>
+                  <a href ="mailto:mabulana20@gmail.com" class="detail" >mabulana20@gmail.com</a><br>
+                  <label for="" class="detail"><a  class="web">4005 Jeff Atteredgeville Pretoria 0008</a></label>
+              </div>
+              <br><br><br>
+              <div class="line"></div>
+              <div class="line2"><li>Profile</li></div><br>
+              <p>My Objective To work in an environment which encourages me to succeed and grow professionally where I can
+                utilize my skills and knowledge appropriately.</p>
+              <br>
+              <div class="line4"></div>
+              <div class="textField1">
+                  
+              <label for="">Name</label><br>
+                  <label for="">Surname</label><br>
+                  <label for="">Gender</label><br>
+                  <label for=""></label><br>
+              </div>
+              <div class="textField2">
+                  
+                  <label for="">Lerato</label><br>
+                  <label for="">Mabulane</label><br>
+                  <label for="">Female</label><br>
+                  <label for=""></label><br>
+                  
+              </div>
+  
+              <br> <br> <br>
+              <div class="line3" ><li class="edu">Education</li>  </div>
+              <div class="textField1">
+                  <label for="">School</label><br>
+                  <label for="">Highest Grade Passed</label><br>
+                  <label for="">Symbol</label><br>
+                  <label for="">Year</label><br><p> </p>
+              </div>	
+              <div class="textField2">
+                  <label class="TextF2" for="">Sekgware High School</label><br>
+                  <label class="TextF2" for="">Matric</label><br>
+                  <label class="TextF2" for="">Diploma</label><br>
+                  <label class="TextF2" for="">2011</label><br>	<br><br><br>	
+              </div>	
+              <br><br> <br>  
+              <div class="line3"> <li class="ter">Tertiary</li></div>	
+              <div class="textField1">
+                  <label class="TextF1" for="">Institution</label><br>
+                  <label class="TextF1" for="">Qualification</label><br><br>
+                  <label class="TextF1" for="">Year Completed </label><br>
+              </div>
+              <div class="textField2">
+                  <label class="TextF2" for="">Brooklyn City College</label><br>
+                  <label class="TextF2" for=""><span class="digreeTy">N6 Certificate</span></label><br>
+                  <label class="TextF2" for="">Human Resources Management  </label><br>
+                  <label class="TextF2" for="">2018  </label><br>
+              </div>	
+              <br><br> <br> <br>
+              <div class="line3" id="header1">Skills</div><br><p> </p><br>
+              <div class="textField1" id="CodingS">
+                  <label class="TextF1"  id="readd" for="">Compitency </label><br>
+                  <label class="TextF1" for=""></label><br>
+                  <label class="TextF1" for="">Excelent communications </label><br>
+                  <label class="TextF1" for="">Creative and innovative</label><br>
+                  <label class="TextF1" for="">Problem solving </label><br>
+                  <label class="TextF1" for="">Team building </label><br>				
+                  <label class="TextF1" for="">Decision making</label><br>
+              </div> <p></p>
+              <div id="Sskills" class="textField2">
+                  
+                    <li>Computer Literate</li>
+                    <li>Attention to Detail</li>
+                    <li>Client/Customer Centered</li>
+                    <li> Organisational Skills</li>
+                    <li>Technical Proficiency in understanding Product and services</li>
+                    <li>Adaptability & Willingness to go the extra mile</li>
+                                <!--
+                      
+                  <label class="TextF2" for="">Programming C++, C# ,Python & JAVA</label><br>
+                  <label class="TextF2" for="">Database Management SQL/PL SQL</label><br>
+                  <label class="TextF2" for="">Font End and Back End</label><br>
+                  <label class="TextF2" for="">Web Development  [HTML CSS JAVA script]</label>
+                  -->
+              </div><br>
+              <br><br> <br><br> <br><br>
+              
+  
+              
+<!--
+    Role 
+    duties and resposiblities.
+    metion   hr
+    date and fine.
+    letter wil forms sign
+-->
+
+              
+          </div>
+<br>
+</body>
+</html>
+
+
+*/
