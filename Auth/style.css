@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* i love this blue color
+background:rgb(0, 204, 255);
+*/
+:root{
+    
+    /*--main-color: #1eff00;   
+    --main-color: #0084ff;   */
+    --main-color: #183d5f;
+    --color-dark:#1D2231 ;
+    --text-grey:8390A2;
+    --theme-twe-color:white; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppons',sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*-------------------Header ----------------------------*/
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    /*width: calc(100% - 345px);      -----js*/
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+/*--------Side Bar  -------------------------*/
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -325px;
+    width: 325px;
+    height: 100%;
+    transition: ease-out .3s;
+    background: var(--main-color);
+    z-index: 200;
+}
+
+.sidebaricon{
+    height: 90px;
+    color: white;
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+.sidebaricon span{
+     display: inline-block;
+     padding-right: 1rem;
+}
+.sidebar-menu {
+    margin-top: 1rem;
+}
+.sidebar-menu li{
+    padding-left: 1rem;
+    width: 100%;
+    margin-bottom: 1.3rem;
+}
+
+.sidebar-menu  a  {
+    color: #fff;
+    display: block;
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+.sidebar-menu  a:hover  {
+    padding-top: 5px;
+    color: chartreuse;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.sidebar-menu  a span:first-child {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+.sidebar-menu  a.active{
+    color: var(--main-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #fff;
+    border-radius: 30px 0px 0px 30px;
+}
+
+
+/*
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background: var(--main-color);
+
+    overflow-x: hidden;
+}
+.search-wrapper span{
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.5rem;
+}
+.search-wrapper input{
+    height: 100%;
+    padding: .5rem;
+    border:none;
+    outline: none;
+}
+
+.user-wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+.user-wrapper img{
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.user-wrapper small{
+    display: inline-block;
+    color: var(--text-grey);
+    
+}*/
+/*------------Toggle------------------------------*/
+.nav-toggle{
+    cursor: pointer;
+}
+.nav-toggle span{
+    color: rgb(5, 159, 219);
+   
+}
+.nav-toggle span:first-child{
+    margin-bottom: px;
+}
+.nav-toggle span img{
+    
+   width: 80px;
+}
+.nav-toggle span:last-child{
+    /*border-top: 1px solid rgba(5, 158, 219, 0.493);*/
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+.addorout a{
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 11px;
+    border-radius: 1px;
+    background:rgb(0, 204, 255);
+}
+.addorout a:hover{
+    margin-top: 2px;
+    border-top-left-radius: 18px ;
+    border-bottom-right-radius: 8px ;
+    
+}
+.addorout a:first-child{
+    padding: 5px 10px 5px;
+    border-radius: 50%;
+}
+/*-------------------Main content ----------------------------*/
+
+.main-content{
+    /*margin-left: 345px;    -----js*/
+    margin-left: 0;
+}
+
+
+main{
+    position: relative;
+    padding: 2rem 1.5rem;
+    margin-top: 70px;
+    background: #f1f5f9;
+   /* min-height: calc(100vh - 90px); -----React Js*/
+    width: 100%;
+    
+}
+
+
+/*-------------------Cards ----------------------------*/
+.cards{
+    display: grid;
+    /* grid-template-columns: repeat(5 , 0.1fr); */
+    /* grid-template-columns: repeat(5 , 0.1fr); */
+
+    grid-gap: 2rem;
+    margin-top: 1rem;
+    
+}
+.card-single{
+    
+    padding: 1rem;
+    
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #fff;
+    color: greenyellow;
+    
+    border-left: 4px solid rgb(0, 204, 255);
+}
+
+.card-single div:first-child span{
+    font-size: 1rem;
+    color: var(--text-grey);
+}
+.card-single div:last-child span{
+    color:  rgb(47, 248, 255);
+    font-size: 2rem;
+}
+.card-single:last-child{
+    background: rgb(0, 204, 255);
+    color: white;
+    border-bottom-right-radius: 7px;
+    border-right: 4px solid rgb(60, 255, 0);
+}
+
+/*Table  div Header*/
+.recentp{
+    margin-top: 5px;
+}
+.recentp .project .card .card-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 3px;
+    background: white;
+}
+
+
+.recentp .project .card .card-header  h4{
+    color: var(--main-color);
+}
+
+.recentp .project .card .card-header  button{
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(92, 236, 9);
+    cursor: pointer;
+}
+
+/*                          Tables-------------------------------------*/
+.tbl-to-do{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tbl-to-do  thead{
+    background-color: turquoise;
+}
+.tbl-to-do  thead tr th{
+    color: white;
+    padding: 12px;
+    vertical-align: top;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+
+    border: 1px solid white;
+
+}
+/*
+.tbl-to-do tbody tr th{
+    padding: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    text-emphasis: center;
+viewtask
+}*/
+
+.tbl-to-do tbody tr td{
+    color : rgb(11, 44, 94);
+    padding: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    text-emphasis: center;
+    background-color: rgb(250, 245, 245);
+
+}
+.tbl-to-do tbody tr td  a{
+    color: white;
+    padding: 1px 5px 1px 5px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: medium;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 1px;
+    border: 1px solid transparent;
+    background: rgb(15, 172, 235);
+}
+
+
+
+/*--------------------Creare Ticket*/
+.divholder{
+    top: 0;
+    display: none;
+    transition: ease-in-out .10s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #f3ebf6ce;
+}
+.create-ticket{
+    margin: auto;
+    width: 400px;
+    padding: 40px 20px 20px 40px;
+    color: rgb(1, 44, 19);
+    background:var(--theme-twe-color) ;
+    border: none;
+    transition: ease-in-out .5s;
+    border-radius: none;
+    /*border-left: 3px  solid rgb(140, 174, 236) ;*/
+}
+.divholder .create-ticket .formo  {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.divholder .create-ticket .formo  div{
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    color: rgb(15, 77, 102);
+    justify-content: space-between;
+    line-height: 25px;   
+}
+.divholder .create-ticket .formo div input[ty]  {
+    outline: none;
+    border-bottom: 2px solid rgb(15, 172, 235);
+}
+.divholder .create-ticket .formo  button{
+    width: 100%;
+    color: white;
+    font-size: bold;
+    outline: none;
+    border: 5px solid white;
+    justify-content: space-between;
+    line-height: 25px;
+    border-radius: 10px;
+    background: rgb(15, 172, 235);
+}
+.create-ticket  .depselector{
+    border: none;
+    border-bottom: 2px solid rgb(15, 172, 235);
+}
+/*
+
+var sheet = document.createElement('style')
+sheet.innerHTML = "div {border: 2px solid black; background-color: blue;}";
+document.body.appendChild(sheet);
+
+
+
+var sheetToBeRemoved = document.getElementById('styleSheetId');
+var sheetParent = sheetToBeRemoved.parentNode;
+sheetParent.removeChild(sheetToBeRemoved);
+*/

@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F3EBF6;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*-----------header */
+header{
+    width: 100%;
+    height: 40px;
+    
+    padding: 10px;
+
+    background: rgba(1, 1, 43, 0.932);
+    
+    z-index: 1;
+}
+header ul{
+    overflow: hidden;
+}
+header ul li{
+    float: right;
+    list-style: none;
+    margin-right: 35px;
+}
+header ul li a{
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+}
+header .manu-btn{
+    color: white;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+/*----------------Side Nav */
+.side-nav{
+    top: 0;
+    left: -250px;
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid  #d8c5d8;
+    box-sizing: border-box;
+}
+
+.side-nav .log-icon{
+    
+    top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 1px;
+    border-bottom: 1px solid rgb(0, 128, 128);
+    background: white;
+}
+.side-nav .user{
+    padding: 8px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-nav  .nav-link { 
+    padding: 0;
+    width: 100%;
+    line-height: 50px;
+}
+.side-nav  .nav-link li { 
+      
+      padding-left: 20px;
+}
+.side-nav  .nav-link li a{ 
+    color :rgb(1, 165, 51);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.side-nav .nav-link .logout-btn{
+    
+    position: absolute;
+    background: rgb(97, 80, 245);
+    bottom: 0px;
+}
